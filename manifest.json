@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cookie Manager",
+  "description": "Manage cookie easily",
+  "version": "1.0",
+
+  "permissions": [
+    "cookies", "http://*/*", "https://*/*" // , "tabs"
+  ],
+  "browser_action": {
+    // "default_icon": null,
+    "default_popup": "cookie.html"
+  }
+}
